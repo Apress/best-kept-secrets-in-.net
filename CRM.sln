@@ -1,0 +1,100 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Microsoft.ApplicationBlocks.Data", "..\..\..\..\Program Files\Microsoft Application Blocks for .NET\Data Access\Code\VB\Microsoft.ApplicationBlocks.Data\Microsoft.ApplicationBlocks.Data.vbproj", "{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CRMBO", "CRMBO\CRMBO.vbproj", "{CA5E77DA-979F-46BE-A9D3-FD0C3B1EF771}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CRMBOTester", "CRMBOTester\CRMBOTester.vbproj", "{064F9716-FF82-4725-90E8-4BAA06E8BCD9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CRMWin", "CRMWin\CRMWin.vbproj", "{293B3B26-12D4-4F6F-8A91-09FC0720DBB2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMWin_CSharp", "CRMWin_CSharp\CRMWin_CSharp.csproj", "{EFE2157B-7FD5-42B3-B870-699B19C94F95}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMBO_CSharp", "CRMBO_CSharp\CRMBO_CSharp.csproj", "{42940CBA-1C9F-492E-B43F-E96176C155D2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "CRMDatabase", "CRMDatabase\CRMDatabase.dbp", "{135DE29B-6E81-4C13-B903-2F10E9CA0038}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GeneralUtility", "GeneralUtility\GeneralUtility.vbproj", "{A9839797-8298-4846-8F99-5A0151B98337}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralUtility_CSharp", "GeneralUtility_CSharp\GeneralUtility_CSharp.csproj", "{EFAC049D-3A8E-4AE4-AFFD-92A42B8807DB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Unit Test = Unit Test
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Debug.ActiveCfg = Debug|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Debug.Build.0 = Debug|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Release.ActiveCfg = Release|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Release.Build.0 = Release|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Unit Test.ActiveCfg = Unit Test|.NET
+		{0ED3D747-FA56-4481-8A26-4A0E39BA7D03}.Unit Test.Build.0 = Unit Test|.NET
+		{CA5E77DA-979F-46BE-A9D3-FD0C3B1EF771}.Debug.ActiveCfg = Debug|.NET
+		{CA5E77DA-979F-46BE-A9D3-FD0C3B1EF771}.Debug.Build.0 = Debug|.NET
+		{CA5E77DA-979F-46BE-A9D3-FD0C3B1EF771}.Release.ActiveCfg = Release|.NET
+		{CA5E77DA-979F-46BE-A9D3-FD0C3B1EF771}.Release.Build.0 = Release|.NET
+		{CA5E77DA-979F-46BE-A9D3-FD0C3B1EF771}.Unit Test.ActiveCfg = Unit Test|.NET
+		{CA5E77DA-979F-46BE-A9D3-FD0C3B1EF771}.Unit Test.Build.0 = Unit Test|.NET
+		{064F9716-FF82-4725-90E8-4BAA06E8BCD9}.Debug.ActiveCfg = Debug|.NET
+		{064F9716-FF82-4725-90E8-4BAA06E8BCD9}.Release.ActiveCfg = Release|.NET
+		{064F9716-FF82-4725-90E8-4BAA06E8BCD9}.Release.Build.0 = Release|.NET
+		{064F9716-FF82-4725-90E8-4BAA06E8BCD9}.Unit Test.ActiveCfg = Unit Test|.NET
+		{064F9716-FF82-4725-90E8-4BAA06E8BCD9}.Unit Test.Build.0 = Unit Test|.NET
+		{293B3B26-12D4-4F6F-8A91-09FC0720DBB2}.Debug.ActiveCfg = Debug|.NET
+		{293B3B26-12D4-4F6F-8A91-09FC0720DBB2}.Debug.Build.0 = Debug|.NET
+		{293B3B26-12D4-4F6F-8A91-09FC0720DBB2}.Release.ActiveCfg = Release|.NET
+		{293B3B26-12D4-4F6F-8A91-09FC0720DBB2}.Release.Build.0 = Release|.NET
+		{293B3B26-12D4-4F6F-8A91-09FC0720DBB2}.Unit Test.ActiveCfg = Unit Test|.NET
+		{293B3B26-12D4-4F6F-8A91-09FC0720DBB2}.Unit Test.Build.0 = Unit Test|.NET
+		{EFE2157B-7FD5-42B3-B870-699B19C94F95}.Debug.ActiveCfg = Debug|.NET
+		{EFE2157B-7FD5-42B3-B870-699B19C94F95}.Debug.Build.0 = Debug|.NET
+		{EFE2157B-7FD5-42B3-B870-699B19C94F95}.Release.ActiveCfg = Release|.NET
+		{EFE2157B-7FD5-42B3-B870-699B19C94F95}.Release.Build.0 = Release|.NET
+		{EFE2157B-7FD5-42B3-B870-699B19C94F95}.Unit Test.ActiveCfg = Release|.NET
+		{EFE2157B-7FD5-42B3-B870-699B19C94F95}.Unit Test.Build.0 = Release|.NET
+		{42940CBA-1C9F-492E-B43F-E96176C155D2}.Debug.ActiveCfg = Debug|.NET
+		{42940CBA-1C9F-492E-B43F-E96176C155D2}.Debug.Build.0 = Debug|.NET
+		{42940CBA-1C9F-492E-B43F-E96176C155D2}.Release.ActiveCfg = Release|.NET
+		{42940CBA-1C9F-492E-B43F-E96176C155D2}.Release.Build.0 = Release|.NET
+		{42940CBA-1C9F-492E-B43F-E96176C155D2}.Unit Test.ActiveCfg = Release|.NET
+		{42940CBA-1C9F-492E-B43F-E96176C155D2}.Unit Test.Build.0 = Release|.NET
+		{A9839797-8298-4846-8F99-5A0151B98337}.Debug.ActiveCfg = Debug|.NET
+		{A9839797-8298-4846-8F99-5A0151B98337}.Debug.Build.0 = Debug|.NET
+		{A9839797-8298-4846-8F99-5A0151B98337}.Release.ActiveCfg = Release|.NET
+		{A9839797-8298-4846-8F99-5A0151B98337}.Release.Build.0 = Release|.NET
+		{A9839797-8298-4846-8F99-5A0151B98337}.Unit Test.ActiveCfg = Release|.NET
+		{A9839797-8298-4846-8F99-5A0151B98337}.Unit Test.Build.0 = Release|.NET
+		{EFAC049D-3A8E-4AE4-AFFD-92A42B8807DB}.Debug.ActiveCfg = Debug|.NET
+		{EFAC049D-3A8E-4AE4-AFFD-92A42B8807DB}.Debug.Build.0 = Debug|.NET
+		{EFAC049D-3A8E-4AE4-AFFD-92A42B8807DB}.Release.ActiveCfg = Release|.NET
+		{EFAC049D-3A8E-4AE4-AFFD-92A42B8807DB}.Release.Build.0 = Release|.NET
+		{EFAC049D-3A8E-4AE4-AFFD-92A42B8807DB}.Unit Test.ActiveCfg = Unit Test|.NET
+		{EFAC049D-3A8E-4AE4-AFFD-92A42B8807DB}.Unit Test.Build.0 = Unit Test|.NET
+	EndGlobalSection
+	GlobalSection(SolutionItems) = postSolution
+		ReadMe.txt = ReadMe.txt
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
